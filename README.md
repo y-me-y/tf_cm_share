@@ -23,3 +23,5 @@ Terraform configurations.
 - Execute `terraform plan` to confirm there are no errors.
 - Execute `terraform apply` to build the infrastructure.  This will create with module source of __modules/a2_with_clients__.  Once completed, it will also create a local `.chef` directory at the current location, allowing for `knife` access to the Chef Infra Server instance.  Total creation time is __~10 minutes__.
 - Execute `terraform destroy` when completed to clean-up any resources created.
+
+testing 123
